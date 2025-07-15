@@ -1,0 +1,22 @@
+﻿<Project Sdk="Uno.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net9.0-android;net9.0-ios;net9.0-windows10.0.26100;net9.0-browserwasm;net9.0-desktop</TargetFrameworks>
+        <OutputType>Exe</OutputType>
+        <UnoSingleProject>true</UnoSingleProject>
+        <ApplicationTitle>LiveChatsDemo2</ApplicationTitle>
+        <ApplicationId>com.companyname.LiveChatsDemo2</ApplicationId>
+        <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+        <ApplicationVersion>1</ApplicationVersion>
+        <ApplicationPublisher>P R C</ApplicationPublisher>
+        <Description>LiveChatsDemo2 powered by Uno Platform.</Description>
+        <UnoFeatures>
+            Mvvm;
+            Skia;
+        </UnoFeatures>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="HarfBuzzSharp" />
+        <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" />
+        <PackageReference Include="LiveChartsCore.SkiaSharpView.Uno.WinUI" />
+    </ItemGroup>
+</Project>

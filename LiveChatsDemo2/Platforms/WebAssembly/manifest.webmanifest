@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "LiveChatsDemo2",
+  "display": "standalone",
+  "name": "LiveChatsDemo2",
+  "short_name": "LiveChatsDemo2",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
